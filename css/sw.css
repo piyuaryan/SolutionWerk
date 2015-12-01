@@ -1,0 +1,123 @@
+/* Menu */
+.sw-menu {
+    padding: 50px 10px 0 0;
+    color: #07668f;
+}
+
+/* Cover*/
+.sw-text {
+    color: #07668f;
+}
+
+.sw-text h1 {
+    font-size: 40px;
+}
+
+.sw-btn {
+    border: 2px solid #07668f;
+    color: #07668f;
+}
+
+/*  Projects*/
+.project-slider {
+    position: relative;
+    padding: 3% 100px 3% 100px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.project-slider ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.project-slider ul li {
+    width: 100%;
+}
+
+.project-slider li h1 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.project-slider li p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.project-slider.project-image {
+    display: block;
+}
+
+.project-slider img {
+    width: 400px;
+    height: 400px;
+}
+
+/* Why us?*/
+.screenshots-intro ul {
+    padding: 0 0 0 50px;
+    margin-bottom: 25px;
+    color: #778899;
+}
+
+/* Team */
+.sw-team-section {
+    padding: 120px 0;
+    background-color: #3f6184;
+}
+
+.sw-team-section h1 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.sw-team {
+    margin: 40px 0 0;
+    padding: 0;
+    border: none;
+}
+
+.sw-team p {
+    /*display: inline-block;*/
+    color: #fff;
+    margin: 0 0 10px 0;
+    padding: 0;
+    /*width: 70%;*/
+    vertical-align: top;
+    font-style: italic;
+}
+.sw-team h2 {
+    color: #fff;
+    margin: .80em 0 .30em 0;
+}
+
+.sw-team .avatar {
+    /*
+    display: inline-block;
+    margin-right: 20px;
+    width: 64px;
+    height: 64px;
+    */
+    vertical-align: middle;
+}
+
+.sw-team .logo-quote {
+    /*display: inline-block;*/
+    margin: 10px 0 0 0;
+}
+
+.sw-team img.profileImg {
+    border-radius: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: #fff;
+    max-height: 170px;
+    height: 165px;
+    width: 250px;
+}
