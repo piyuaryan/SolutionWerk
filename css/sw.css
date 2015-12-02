@@ -22,8 +22,8 @@
 .project-slider {
     position: relative;
     padding: 3% 100px 3% 100px;
-    height: 500px;
     background: rgba(0, 0, 0, 0.3);
+    margin: 0 5%;
 }
 
 .project-slider ul {
@@ -53,8 +53,11 @@
 }
 
 .project-slider img {
-    width: 400px;
-    height: 400px;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Why us?*/
@@ -92,6 +95,7 @@
     vertical-align: top;
     font-style: italic;
 }
+
 .sw-team h2 {
     color: #fff;
     margin: .80em 0 .30em 0;
