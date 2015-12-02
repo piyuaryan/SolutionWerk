@@ -18,6 +18,22 @@
     color: #07668f;
 }
 
+/* Section Headers */
+.section-header .section-title {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 3% 0 3% 0;
+    text-align: center;
+}
+
+.section-header .section-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
 /*  Projects*/
 .project-slider {
     position: relative;
@@ -69,7 +85,7 @@
 
 /* Team */
 .sw-team-section {
-    padding: 120px 0;
+    padding: 3% 0 3% 0;
     background-color: #3f6184;
 }
 
