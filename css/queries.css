@@ -11,8 +11,10 @@
 	.feature-content{width:80%;}
 	.features-slider{height:100%}
 	.projects-slider{height:100%}
-	/* TODO: Piyush hide projects Images here */
+	/* hide projects Images here */
     .project-image{display:none;}
+	.nav-wrapper img {width: 143px; height: 31px}
+	.flickity-viewport {min-height: 200px}
 }
 @media screen and (max-width:680px){
 	.feature-content{width:60%;}
