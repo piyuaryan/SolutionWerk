@@ -179,18 +179,21 @@ section.contact a:hover i, section.contact a:focus i {
 #contact {
     background: #ecf0f1;
 }
+
 #contact .info {
     padding: 15px 0;
 }
+
 #contact .info .icon {
     margin-bottom: 10px;
 }
+
 #contact .info .icon i {
     font-size: 28px;
 }
 
 #contact .info h4 {
-    margin:0 0;
+    margin: 0 0;
     color: #385461;
     font-size: 24px;
     font-weight: 400;
@@ -200,13 +203,21 @@ section.contact a:hover i, section.contact a:focus i {
     color: #909090;
     margin: 0 0;
 }
+
 .contact-form {
     /*margin-top: 52px;*/
 }
+
 .contact-form i {
     position: absolute;
     right: 15px;
 }
+
 .contact-form .form-control {
     margin-bottom: 28px;
+}
+
+.sw-model-content {
+    padding: 20px 20px;
+    text-align: center;
 }

@@ -17,14 +17,13 @@ if(empty($name)||empty($visitor_email))
 
 if(IsInjected($visitor_email))
 {
-    echo "Bad email value!";
-    exit;
+    header('Location: /?mailSent=N&error=badEmail#contact');
 }
 
 $email_from = 'info@solutionwerk.com';//<== update the email address
-$email_subject = "New Enquiry";
-$email_body = "You have received a new message from the user $name.\n".
-    "Here is the message:\n $message".
+$email_subject = "New Enquiry from $name";
+$email_body = "You have received a new message from the user - $name.\n\n".
+    "Here is the message:\n\n $message \n\n\n";
     
 $to = "info@solutionwerk.com";//<== update the email address
 $headers = "From: $email_from \r\n";
@@ -32,7 +31,7 @@ $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
-header('Location: index.html?mailSent=Y');
+header('Location: /?mailSent=Y#contact');
 
 
 // Function to validate against any email injection attempts
