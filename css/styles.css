@@ -928,15 +928,15 @@ Screenshots Intro
 Screenshots
 ========================================================================== */
 .screenshots ul {
-    margin: 0;
+    margin: 0 10% 0 10%;
     padding: 0;
-    width: 100%;
+    width: 80%;
 }
 
 .screenshots ul li {
     float: left;
     min-height: 100%;
-    width: 25%;
+    width: 50%;
     background-color: #000;
     list-style: none;
 }
